@@ -45,7 +45,7 @@ const speed: Speed = 100
 isAdult(speed) // OK!
 ```
 
-There are cases where you want to distinguish two aliases of native type.
+There are cases where you want to distinguish two aliases of `number` type.
 Another example can be entities with unique ids:
 
 ```typescript
@@ -67,7 +67,7 @@ getSthByUserId(foo.id) // OK!
 ```
 
 If such case the logic is not type safe enough because we want to restrict
-our method to get only special type of string which is UserId.
+our method to get only special type of `number` which is `UserId`.
 
 ## String\<K>, Number\<K> - built in types with kinds
 
