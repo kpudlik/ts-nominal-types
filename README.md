@@ -21,7 +21,7 @@ function doSthWithA(a: A) {
   console.log(a)
 }
 
-const b = {
+const b: B = {
   prop: 'b'
 }
 
